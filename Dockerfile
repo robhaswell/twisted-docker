@@ -34,6 +34,6 @@ RUN pip -qq install \
 
 RUN adduser --system twisted
 USER twisted
-WORKDIR ~
+WORKDIR /home/twisted
 
 # RUN trial -j8 twisted.test
