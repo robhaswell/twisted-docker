@@ -36,4 +36,4 @@ RUN adduser --system twisted
 USER twisted
 WORKDIR ~
 
-RUN trial -j8 twisted.test
+# RUN trial -j8 twisted.test
